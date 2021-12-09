@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1{
+    font-family: var(--font-serif);
+    font-size:var(--heading-1);
+}
+
+h2{
+    font-family: var(--font-serif);
+    font-size: var(--heading-2);
+}
+
+h3{
+    font-family: var(--font-serif-2);
+    font-size: var(--heading-3);
+    
+}
+
+.chapo {
+    font-family: var(--font-chapo);
+    font-style: italic;
+    font-size: var(--chapô);
+}
+
+p {
+    font-family: var(--font-body);
+    font-size: var(--bo);
+}
+

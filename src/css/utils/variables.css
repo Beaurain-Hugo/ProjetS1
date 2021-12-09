@@ -1,0 +1,30 @@
+:root{
+    /* Color styles */
+--bleu: rgba(149, 242, 255, 1);
+--bleu-clair: rgba(222, 244, 248, 1);
+--rose-clair: rgba(255, 144, 237, 1);
+--magenta: rgba(219, 113, 202, 1);
+--gris-clair: rgba(232, 232, 232, 1);
+--gris: rgba(134, 134, 134, 1);
+--gris-foncé: rgba(73, 73, 73, 1);
+--noir: rgba(0, 0, 0, 1);
+
+/* Text-size styles */
+/* base size: heading-3 (16px) */
+--heading-1: 1.5rem;
+--heading-2: 1.25rem;
+--heading-3: 1rem;
+--body-1: 0.75rem;
+--body-2: 0.62rem;
+--small-texte: 0.62rem;
+--footer: 0.62rem;
+--chapô: 1.25rem;
+--small-texte-2: 0.62rem;
+
+/* Font-family styles */
+--font-serif: 'Playfair Display SC';
+--font-serif-2: 'Abhaya Libre', 700;
+--font-chapo: 'Overlock';
+--font-body: 'Arial';
+
+}

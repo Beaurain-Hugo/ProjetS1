@@ -13,3 +13,6 @@
 /* Importation des bases */
 @import url('base/media.css');
 @import url('base/main.css');
+
+/* Importation des layouts */
+@import url('layout/header.css');

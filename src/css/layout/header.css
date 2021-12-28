@@ -1,0 +1,18 @@
+.header{
+    background-color: var(--bleu);
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.header__start{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+.header__title{
+    margin-top: 10%;
+}

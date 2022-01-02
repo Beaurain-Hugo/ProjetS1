@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--magenta);
+}
+
+.footer__title{
+    align-self: center;
+}
+
+.footer__info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer__info--name{
+    align-self: center;
+}
+
+.footer__info--group{
+    align-self: center;
+}
+
+.footer__info--mail{
+    align-self: center;
+}
+
+.footer__mentions{
+    text-align: center;
+}

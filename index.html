@@ -4,10 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>Page d'accueil</title>
+        
         <link rel="stylesheet" href="src/css/style.css">
+        
         <script src="//unpkg.com/alpinejs" defer></script>
     </head>
+    
     <body x-data="{atTop : false }">
         <header class="header"
                 :class="atTop && 'header--atTop'"
@@ -21,6 +25,7 @@
                     <span class="menu-btn__bar"></span>
                 </button>
             </div>
+           
             <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'"> 
                 <ul class="menu__list list__unstyled">
                     <li class="menu__item"><a class="menu__link" href="article_histoire.html">Le féminisme : une histoire à travers les siècles</a></li>
@@ -34,6 +39,7 @@
                 </ul>
             </nav>
         </header>
+        
         <main>
             <div>
                 <h2>Parlons peu, parlons féminisme !</h2>
@@ -67,15 +73,15 @@
                 </article>
             </div>
         </main>
-        <footer>
-            <img src="visuels/images/logo_mmi.jpg" alt="Logo du département MMI de Montbéliard">
-            <p>PARLONS FÉMINISME</p>
-            <p>
-                Hugo Beaurain<br>
-                Groupe A1<br>
-                <a href="mailto:hugo.beaurain@yahoo.com">hugo.beaurain@yahoo.com</a>
-            </p>
-            <p>Projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMI de Montbéliard</a></p>
+        <footer class="footer">
+            <img class="footer__img" src="visuels/images/logo_mmi.png" alt="Logo du département MMI de Montbéliard">
+            <p class="footer__title">PARLONS FÉMINISME</p>
+            <div class="footer__info">
+                <p class="footer__info--name">Hugo Beaurain</p>
+                <p class="footer__info--group">Groupe A1</p>
+                <p class="footer__info--mail"><a class="footer__mail" href="mailto:hugo.beaurain@yahoo.com">hugo.beaurain@yahoo.com</a></p>
+            </div>
+            <p class="footer__mentions">Projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMI de Montbéliard</a></p>
         </footer>
     </body>
 </html>

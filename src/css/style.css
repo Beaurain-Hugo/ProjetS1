@@ -16,6 +16,7 @@
 
 /* Importation des layouts */
 @import url('layout/header.css');
+@import url('layout/footer.css');
 
 /* Importation des components */
 @import url('components/menu.css');

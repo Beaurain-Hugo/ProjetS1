@@ -8,6 +8,10 @@ body{
     background-color: var(--bleu-clair);
 }
 
+h1, h2, h3{
+    color: var(--noir)
+}
+
 h1{
     font-family: var(--font-serif);
     font-size:var(--heading-1);
@@ -24,15 +28,15 @@ h3{
     
 }
 
-.chapo {
-    font-family: var(--font-chapo);
-    font-style: italic;
-    font-size: var(--chapô);
-}
 
 p {
     font-family: var(--font-sans-serif);
     font-size: var(--body-1);
+}
+
+a{
+    text-decoration: none;
+    color:var(--noir)
 }
 
 .list__unstyled{

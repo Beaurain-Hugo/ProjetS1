@@ -1,34 +1,46 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/style.css">
-    <title>Page d'accueil</title>
-</head>
-<body>
-    <header>
-        <div>
-            <h1><a href="/">Parlons féminisme</a></h1>
-            <img src="visuels/icones/drapeau_royaume_uni.svg" alt="Drapeau du Royaume Uni">
-            <button>
-                <span></span>
-            </button>
-        </div>
-        <nav> 
-            <ul>
-                <li><a href="article_histoire.html">Le féminisme : une histoire à travers les siècles</a></li>
-                <li><a href="article_feministe.html">Une féministe à Hollywood</a></li>
-                <li><a href="article_oeuvre.html">Les femmes au pouvoir : une antithèse</a></li>
-                <li><a href="feminisme_image.html">Le féminisme en image</a></li>
-                <li><a href="glossaire.html">Glossaire</a></li>
-                <li><a href="a_propos.html">À propos</a></li>
-                <li><a href="me_contacter.html">Me contacter</a></li>
-                <li><a href="leurs_projets.html">Leurs projets</a></li>
-            </ul>
-        </nav>
-    </header>
+<html lang="fr" x-data="{menuIsOpen : false}" :class="menuIsOpen && 'menu-btn--open'">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Page d'accueil</title>
+        
+        <link rel="stylesheet" href="src/css/style.css">
+        
+        <script src="//unpkg.com/alpinejs" defer></script>
+    </head>
+    
+    <body x-data="{atTop : false }">
+        <header class="header"
+                :class="atTop && 'header--atTop'"
+                @scroll.window="atTop= (window.scrollY > 100 ? true : false )">
+            <div class="header__start">
+                <img class="langue" src="visuels/icones/drapeau_royaume_uni.svg" alt="Drapeau du Royaume Uni">
+                <h1 class="header__title"><a href="/">Parlons féminisme</a></h1>
+                <button class="header__menu-btn menu-btn"
+                        @click="menuIsOpen = !menuIsOpen"
+                        :class="menuIsOpen && 'menu-btn--open'">
+                    <span class="menu-btn__bar"></span>
+                </button>
+            </div>
+           
+            <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+                <img class="menu__langue" src="visuels/icones/drapeau_royaume_uni.svg" alt="Drapeau du Royaume Uni">
+
+                <ul class="menu__list list__unstyled">
+                    <li class="menu__item"><a class="menu__link" href="article_histoire.html">Le féminisme : une histoire à travers les siècles</a></li>
+                    <li class="menu__item"><a class="menu__link" href="article_feministe.html">Une féministe à Hollywood</a></li>
+                    <li class="menu__item"><a class="menu__link" href="article_oeuvre.html">Les femmes au pouvoir : une antithèse</a></li>
+                    <li class="menu__item"><a class="menu__link" href="feminisme_image.html">Le féminisme en image</a></li>
+                    <li class="menu__item"><a class="menu__link" href="glossaire.html">Glossaire</a></li>
+                    <li class="menu__item"><a class="menu__link" href="a_propos.html">À propos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="me_contacter.html">Me contacter</a></li>
+                    <li class="menu__item"><a class="menu__link" href="leurs_projets.html">Leurs projets</a></li>
+                </ul>
+            </nav>
+        </header>
     <main>
         <div>
             <h2>Le féminisme en image</h2>
@@ -70,15 +82,15 @@
             <p>Vous êtes devenus incollables sur le féminisme mais vous ne comprenez pas certains mots ? Le <a href="glossaire.html">lexique</a> n’attend plus que vous alors !</p>
         </div>
     </main>
-    <footer>
-        <img src="visuels/images/logo_mmi.jpg" alt="Logo du département MMI de Montbéliard">
-        <p>PARLONS FÉMINISME</p>
-        <p>
-            Hugo Beaurain<br>
-            Groupe A1<br>
-            <a href="mailto:hugo.beaurain@yahoo.com">hugo.beaurain@yahoo.com</a>
-        </p>
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMI de Montbéliard</a></p>
+    <footer class="footer">
+        <img class="footer__img" src="visuels/images/logo_mmi.png" alt="Logo du département MMI de Montbéliard">
+        <p class="footer__title">PARLONS FÉMINISME</p>
+        <div class="footer__info">
+            <p class="footer__info--name">Hugo Beaurain</p>
+            <p class="footer__info--group">Groupe A1</p>
+            <p class="footer__info--mail"><a class="footer__mail" href="mailto:hugo.beaurain@yahoo.com">hugo.beaurain@yahoo.com</a></p>
+        </div>
+        <p class="footer__mentions">Projet réalisé dans le cadre d’un exercice pédagogique au département <a href="http://mmimontbeliard.com/"> MMI de Montbéliard</a></p>
     </footer>
 </body>
 </html>

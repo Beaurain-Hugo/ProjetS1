@@ -4,6 +4,12 @@
     background-color: var(--magenta);
 }
 
+.footer__img{
+    width: 20%;
+    align-self: center;
+    margin-top:5%;
+}
+
 .footer__title{
     align-self: center;
 }
@@ -16,16 +22,20 @@
 
 .footer__info--name{
     align-self: center;
+    margin:0;
 }
 
 .footer__info--group{
     align-self: center;
+    margin:0;
 }
 
 .footer__info--mail{
     align-self: center;
+    margin:0;
 }
 
 .footer__mentions{
     text-align: center;
+    margin: 7% 10% 3%;
 }

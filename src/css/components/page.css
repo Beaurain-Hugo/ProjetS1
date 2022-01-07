@@ -1,0 +1,11 @@
+.page__title{
+    margin: 25% 20% 0% 20%;
+    text-align: center;
+}
+
+.page__chapo{
+    font-family: var(--font-chapo);
+    font-style: italic;
+    font-size: var(--chapo);
+    margin: 5% 7% 0%;
+}

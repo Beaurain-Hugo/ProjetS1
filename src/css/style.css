@@ -20,6 +20,6 @@
 
 /* Importation des components */
 @import url('components/menu.css');
-@import url('components/article.css');
+@import url('components/tweet.css');
 @import url('components/page.css');
 @import url('components/homepage.css');

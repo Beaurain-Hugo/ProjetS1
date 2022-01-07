@@ -1,27 +1,27 @@
-.article{
+.tweet{
     background-color: var(--rose-clair);
     margin: 0% 10%;
 }
 
-.article__title{
+.tweet__title{
     font-family: var(--font-serif);
     font-size: var(--heading-2);
     text-align: center;
     padding: 6% 5% 0% 5%;
 }
 
-.article__illustration{
+.tweet__illustration{
     width: 248px;
     justify-self: center;
     margin-left: 8.5%;
 }
 
-.article__introduction{
+.tweet__introduction{
 
     padding: 0% 1% 0% 2%;
 }
 
-.article__suiv{
+.tweet__suite{
     text-align: center;
     padding-bottom: 4%;
 }

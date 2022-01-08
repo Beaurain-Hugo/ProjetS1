@@ -1,0 +1,31 @@
+.article__title{
+    margin: 25% 3% 0% 3%;
+    text-align: center;
+
+}
+
+.article__chapo{
+    font-family: var(--font-chapo);
+    font-style: italic;
+    font-size: var(--chapo);
+    margin: 5% 7% 0%;
+}
+
+.article__contenu--subtitle{
+    margin-left:6%;
+}
+
+.article__contenu--para{
+    margin:0% 5%;
+}
+
+.article__contenu--citation{
+    font-family: var(--font-citation);
+    font-size: var(--small-texte);
+    text-align: center;
+    margin: 5% 10%;
+}
+
+.article__suiv{
+    margin: 3% 7%;
+}

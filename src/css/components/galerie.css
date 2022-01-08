@@ -1,0 +1,12 @@
+.galerie__ligne{
+    display: flex;
+    align-content:center;
+}
+
+.galerie__legende{
+    font-family: var(--font-legende);
+    font-style: italic;
+    font-size: var(--small-texte);
+    align-self: center;
+    text-align: center;
+}

@@ -23,8 +23,9 @@
 
 /* Font-family styles */
 --font-serif: 'Playfair Display SC';
---font-serif-2: 'Abhaya Libre', 700;
+--font-serif-2: 'Abhaya Libre', '700';
 --font-chapo: 'Overlock';
 --font-body: 'Arial';
-
+--font-legende: 'Josefin Slab';
+--font-citation: 'Cormorant Garamond'
 }

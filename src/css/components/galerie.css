@@ -10,3 +10,11 @@
     align-self: center;
     text-align: center;
 }
+
+.galerie__legende--precision{
+    font-family: var(--font-legende);
+    font-style: italic;
+    font-size: var(--small-texte);
+    align-self: center;
+    text-align: center;
+}

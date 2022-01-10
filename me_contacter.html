@@ -43,31 +43,31 @@
         </header>
     <main>
         <div>
-            <h2>Me contacter</h2>
-            <p> Vous avez une question ou souhaitez me contacter ? Vous pouvez en remplissant ce simple formulaire !</p>
+            <h2 class="page__title">Me contacter</h2>
+            <p class="page__chapo"> Vous avez une question ou souhaitez me contacter ? Vous pouvez en remplissant ce simple formulaire !</p>
         </div>
-        <form>
-            <p>
-                <label for="lastname">NOM<br>
-                    <input type="text" id="lastname" name="last-name" value="" placeholder="Insérez votre nom" size="40">
+        <form class="form">
+            <p class="form__onglet">
+                <label for="lastname">NOM
+                    <input class="form__input" type="text" id="lastname" name="last-name" value="" placeholder="Insérez votre nom" size="39">
                 </label>
             </p>
-            <p>
-                <label for="firstname">PRÉNOM<br>
-                    <input type="text" id="firstname" name="first-name" value="" placeholder="Insérez votre prénom" size="40">
+            <p class="form__onglet">
+                <label for="firstname">PRÉNOM
+                    <input class="form__input" type="text" id="firstname" name="first-name" value="" placeholder="Insérez votre prénom" size="39">
                 </label>
             </p>
-            <p>
-                <label for="email">EMAIL<br>
-                    <input type="email" id="email" name="email" value="" placeholder="Insérez votre adresse e-mail" size="40">
+            <p class="form__onglet">
+                <label for="email">EMAIL
+                    <input class="form__input" type="email" id="email" name="email" value="" placeholder="Insérez votre adresse e-mail" size="39">
                 </label>
             </p>
-            <p>
-                <label for="message">MESSAGE<br>
-                    <textarea id="message" name="message"  placeholder="Dites-moi tout !" rows="10"></textarea>
+            <p class="form__onglet--message">
+                <label class="form__text" for="message">MESSAGE
+                    <textarea class="message" id="message" name="message"  placeholder="Dites-moi tout !" rows="10"></textarea>
                 </label>
             </p>
-            <button type="submit">Envoyer</button>
+            <button class="form__button" type="submit">Envoyer</button>
         </form>
     </main>
     <footer class="footer">

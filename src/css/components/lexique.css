@@ -1,0 +1,15 @@
+.lexique{
+    margin-left:10%;
+}
+
+.lexique__terme{
+    margin-top:10%;
+    font-family: var(--font-serif);
+    font-size: var(--heading-3)
+}
+
+.lexique__terme--def{
+    margin:0;
+    font-family: var(--font-body);
+    font-size: var(--heading-3);
+}

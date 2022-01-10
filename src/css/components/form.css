@@ -1,0 +1,33 @@
+.form{
+    background-color: var(--rose-clair);
+    margin: 10% 10%;
+    padding-top:1%;
+}
+
+.form__onglet{
+    margin-left:2%;
+}
+
+.form__input{
+    font-family: var(--font-body);
+}
+
+.message{
+    margin-left:2%;
+    width: 94%;
+    font-family: var(--font-body);
+}
+
+.form__button{
+    font-family: var(--font-serif);
+    font-size: var(--heading-3);
+    margin-left:62%;
+    padding:5% 5%;
+    margin-bottom:2%;
+    border: 2px solid;
+    border-color: var(--magenta);
+}
+
+.form__text{
+    margin-left:2%;
+}

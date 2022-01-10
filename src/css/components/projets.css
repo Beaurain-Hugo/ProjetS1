@@ -1,0 +1,12 @@
+.projets{
+    margin-left:-5%;
+}
+
+.projets__item{
+    padding-bottom: 10%;
+}
+
+.projets__link{
+    font-family: var(--font-serif);
+    font-size: var(--heading-2)
+}

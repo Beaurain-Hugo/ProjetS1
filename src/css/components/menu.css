@@ -10,6 +10,7 @@
     background-color: var(--bleu-clair);
     transform: translateX(100%);
     transition: all .8s ease;
+
   }
   
   .menu--open {
